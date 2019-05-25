@@ -16,7 +16,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "proxy": "http://localhost:5000",
+  "proxy": "https://employee-management-system-gih.herokuapp.com",
   "eslintConfig": {
     "extends": "react-app"
   },
