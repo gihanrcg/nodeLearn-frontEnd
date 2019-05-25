@@ -28,8 +28,12 @@ class SignUp extends Component {
         this.setState({
             isloading: true
         })
+        console.log(this.state.searchEmail);
         axios.get('/api/users/' + this.state.searchEmail)
             .then(res => {
+
+                console.log('sss');
+
                 this.setState({
                     firstName: res.data[0].firstName,
                     lastName: res.data[0].lastName,
